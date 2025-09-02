@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <motion.div
-          className="block overflow-hidden text-center sm:hidden min-h-svh"
+          className="block overflow-hidden text-center sm:hidden min-h-screen"
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
