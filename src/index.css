@@ -146,7 +146,7 @@ body {
 	@apply relative min-h-dvh overflow-hidden;
 
 	.sky {
-		@apply absolute inset-0 w-full h-screen -z-50;
+		@apply absolute inset-0 w-full h-dvh -z-50;
 
 		background-image: url("/assets/sky.webp");
 		background-position: bottom;
