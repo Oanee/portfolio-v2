@@ -19,9 +19,7 @@ const Hero = () => {
       <figure className="absolute inset-0 w-[100vw] h-[100vh]">
         <Canvas camera={{ position: [0, 1, 3] }}>
           <Suspense fallback={<Loader />}>
-            <Float>
-              <Astronaut scale={astronautScale} position={astronautPosition} />
-            </Float>
+            <Astronaut scale={astronautScale} position={astronautPosition} />
           </Suspense>
         </Canvas>
       </figure>
