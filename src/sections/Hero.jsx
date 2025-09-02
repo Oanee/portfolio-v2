@@ -15,16 +15,16 @@ const Hero = () => {
   return (
     <section className="flex items-start justify-center md:items-start md:justify-start min-h-dvh overflow-hidden c-space">
       <HeroText />
-      {/*<ParallaxBackground />*/}
-      <figure className="absolute inset-0 w-[100dvw] h-[100dvh]">
-        <Canvas camera={{ position: [0, 1, 3] }}>
-          <Suspense fallback={<Loader />}>
-            <Float>
-              <Astronaut scale={astronautScale} position={astronautPosition} />
-            </Float>
-          </Suspense>
-        </Canvas>
-      </figure>
+      <ParallaxBackground />
+      {/*<figure className="absolute inset-0 w-[100dvw] h-[100dvh]">*/}
+      {/*  <Canvas camera={{ position: [0, 1, 3] }}>*/}
+      {/*    <Suspense fallback={<Loader />}>*/}
+      {/*      <Float>*/}
+      {/*        <Astronaut scale={astronautScale} position={astronautPosition} />*/}
+      {/*      </Float>*/}
+      {/*    </Suspense>*/}
+      {/*  </Canvas>*/}
+      {/*</figure>*/}
     </section>
   );
 };
