@@ -6,7 +6,6 @@ import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { Suspense } from "react";
 import Loader from "../components/Loader.jsx";
-import Rig from "../hooks/Rig.jsx";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -23,7 +22,6 @@ const Hero = () => {
             <Float>
               <Astronaut scale={astronautScale} position={astronautPosition} />
             </Float>
-            <Rig />
           </Suspense>
         </Canvas>
       </figure>
