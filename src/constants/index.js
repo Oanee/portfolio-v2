@@ -104,7 +104,7 @@ export const projects = [
       "Designed a modern, responsive interface with Tailwind CSS, ensuring seamless user experience across devices.",
     ],
     href: "https://ai-saas-chat-app.vercel.app/",
-    image: "/assets/projects/converso.png",
+    image: "/assets/projects/converso.webp",
     tags: [
       { id: 1, name: "Next.js", path: "/assets/logos/nextjs.svg" },
       { id: 2, name: "React", path: "/assets/logos/react.svg" },
@@ -129,7 +129,7 @@ export const projects = [
       "Enabled file sharing via link and integrated global instant search for efficient file retrieval.",
     ],
     href: "https://storage-app-nine.vercel.app/",
-    image: "/assets/projects/storeit.png",
+    image: "/assets/projects/storeit.webp",
     tags: [
       { id: 1, name: "Next.js", path: "/assets/logos/nextjs.svg" },
       { id: 2, name: "React", path: "/assets/logos/react.svg" },
@@ -151,7 +151,7 @@ export const projects = [
       "Designed a responsive, interactive UI to enhance user experience across devices.",
     ],
     href: "https://movie-app-omega-ten-10.vercel.app/",
-    image: "/assets/projects/tvtime.png",
+    image: "/assets/projects/tvtime.webp",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
       { id: 2, name: "Tailwind CSS", path: "/assets/logos/tailwindcss.svg" },
@@ -171,7 +171,7 @@ export const projects = [
       "Practiced responsive design principles for optimal viewing across devices.",
     ],
     href: "https://oancea-alin.netlify.app/",
-    image: "/assets/projects/portfolio-old.png",
+    image: "/assets/projects/portfolio-old.webp",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
       { id: 2, name: "Next.js", path: "/assets/logos/nextjs.svg" },
@@ -188,7 +188,7 @@ export const projects = [
       "Applied fundamental UI/UX design principles for a clean and user-friendly interface.",
     ],
     href: "https://relaxed-pixie-565e99.netlify.app/",
-    image: "/assets/projects/monochrome.png",
+    image: "/assets/projects/monochrome.webp",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
       { id: 2, name: "Next.js", path: "/assets/logos/nextjs.svg" },
@@ -205,7 +205,7 @@ export const projects = [
       "Practiced layout, styling, and basic interactivity.",
     ],
     href: "https://eloquent-scone-6c5bb4.netlify.app/",
-    image: "/assets/projects/thread-affair.png",
+    image: "/assets/projects/thread-affair.webp",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
       { id: 2, name: "Next.js", path: "/assets/logos/nextjs.svg" },
@@ -222,7 +222,7 @@ export const projects = [
       "Added personalized messages displaying player’s name and current score.",
     ],
     href: "https://elegant-twilight-cb4e55.netlify.app/",
-    image: "/assets/projects/rock-paper-scissors.png",
+    image: "/assets/projects/rock-paper-scissors.webp",
     tags: [
       { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
       { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
@@ -239,7 +239,7 @@ export const projects = [
       "Created an interactive and responsive UI for user engagement.",
     ],
     href: "https://frolicking-souffle-e33725.netlify.app/",
-    image: "/assets/projects/tic-tac-toe.png",
+    image: "/assets/projects/tic-tac-toe.webp",
     tags: [
       { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
       { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
@@ -256,7 +256,7 @@ export const projects = [
       "Provided real-time feedback for guesses and tracked player progress with level and attempts.",
     ],
     href: "https://dazzling-sprinkles-efd334.netlify.app/",
-    image: "/assets/projects/number-guessing.png",
+    image: "/assets/projects/number-guessing.webp",
     tags: [
       { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
       { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
@@ -273,7 +273,7 @@ export const projects = [
       "Practiced real-time UI updates and responsive design.",
     ],
     href: "https://startling-rugelach-b2ddf9.netlify.app/",
-    image: "/assets/projects/clock.png",
+    image: "/assets/projects/clock.webp",
     tags: [
       { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
       { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
