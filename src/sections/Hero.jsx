@@ -16,7 +16,7 @@ const Hero = () => {
     <section className="flex items-start justify-center md:items-start md:justify-start min-h-dvh overflow-hidden c-space">
       <HeroText />
       <ParallaxBackground />
-      <figure className="absolute inset-0 w-[100dvw] h-[100dvh]">
+      <figure className="absolute inset-0 w-dvw h-dvh">
         <Canvas camera={{ position: [0, 1, 3] }}>
           <Suspense fallback={<Loader />}>
             <Float>
