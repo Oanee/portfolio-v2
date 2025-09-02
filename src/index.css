@@ -148,7 +148,7 @@ body {
 	.sky {
 		@apply absolute inset-0 w-full h-screen -z-50;
 
-		background-image: url("assets/sky.jpg");
+		background-image: url("/assets/sky.jpg");
 		background-position: bottom;
 		background-size: cover;
 	}
@@ -156,7 +156,7 @@ body {
 	.mountain-3 {
 		@apply absolute inset-0 -z-40;
 
-		background-image: url("assets/mountain-3.png");
+		background-image: url("/assets/mountain-3.png");
 		background-position: bottom;
 		background-size: cover;
 	}
@@ -164,7 +164,7 @@ body {
 	.planets {
 		@apply absolute inset-0 -z-30;
 
-		background-image: url("assets/planets.png");
+		background-image: url("/assets/planets.png");
 		background-position: bottom;
 		background-size: cover;
 	}
@@ -172,7 +172,7 @@ body {
 	.mountain-2 {
 		@apply absolute inset-0 -z-20;
 
-		background-image: url("assets/mountain-2.png");
+		background-image: url("/assets/mountain-2.png");
 		background-position: bottom;
 		background-size: cover;
 	}
@@ -180,7 +180,7 @@ body {
 	.mountain-1 {
 		@apply absolute inset-0 -z-10;
 
-		background-image: url("assets/mountain-1.png");
+		background-image: url("/assets/mountain-1.png");
 		background-position: bottom;
 		background-size: cover;
 	}
