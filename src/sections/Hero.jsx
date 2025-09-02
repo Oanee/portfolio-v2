@@ -13,10 +13,10 @@ const Hero = () => {
   const astronautPosition = isMobile ? [0, -1.5, 0] : [1.3, -1, 0];
 
   return (
-    <section className="flex items-start justify-center md:items-start md:justify-start min-h-dvh overflow-hidden c-space">
+    <section className="flex items-start justify-center md:items-start md:justify-start min-h-svh overflow-hidden c-space">
       <HeroText />
       <ParallaxBackground />
-      <figure className="absolute inset-0 w-dvw h-dvh">
+      <figure className="absolute inset-0 w-dvw h-svh">
         <Canvas camera={{ position: [0, 1, 3] }}>
           <Suspense fallback={<Loader />}>
             <Float>
