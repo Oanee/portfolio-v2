@@ -10,8 +10,8 @@ import Footer from "./sections/Footer.jsx";
 
 const App = () => {
   return (
-    <div className="">
-      <Navbar />
+    <div className="container mx-auto max-w-7xl">
+      {/*<Navbar />*/}
       <Hero />
       <About />
       <Projects />
