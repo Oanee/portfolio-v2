@@ -12,10 +12,22 @@ const ParallaxBackground = () => {
     <section className="absolute inset-0 brightness-60">
       <div className="parallax">
         <motion.div className="sky" />
-        <motion.div className="mountain-3" style={{ y: mountain3Y }} />
-        <motion.div className="planets" style={{ x: planetsX }} />
-        <motion.div className="mountain-2" style={{ y: mountain2Y }} />
-        <motion.div className="mountain-1" style={{ y: mountain1Y }} />
+        <motion.div
+          className="mountain-3"
+          style={{ y: mountain3Y, willChange: "transform" }}
+        />
+        <motion.div
+          className="planets"
+          style={{ x: planetsX, willChange: "transform" }}
+        />
+        <motion.div
+          className="mountain-2"
+          style={{ y: mountain2Y, willChange: "transform" }}
+        />
+        <motion.div
+          className="mountain-1"
+          style={{ y: mountain1Y, willChange: "transform" }}
+        />
       </div>
     </section>
   );
