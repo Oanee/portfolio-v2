@@ -90,7 +90,7 @@ export const skills = [
   "typescript",
 ];
 
-export const projectsTitle = "My Selected Projects";
+export const projectsTitle = "Projects";
 export const projects = [
   {
     id: 1,
