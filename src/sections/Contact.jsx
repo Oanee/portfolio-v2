@@ -4,7 +4,11 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert.jsx";
 import { Particles } from "../components/Particles.jsx";
-import { personalEmail } from "../constants/index.js";
+import {
+  contactDescription,
+  contactTitle,
+  personalEmail,
+} from "../constants/index.js";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -72,11 +76,8 @@ const Contact = () => {
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-          <h2 className="text-heading">Let's Talk</h2>
-          <p className="font-normal text-neutral-400">
-            Whether you're looking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
-          </p>
+          <h2 className="text-heading">{contactTitle}</h2>
+          <p className="font-normal text-neutral-400">{contactDescription}</p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
