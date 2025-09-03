@@ -293,7 +293,7 @@ export const projects = [
   },
 ];
 
-export const experiencesTitle = "Experiences";
+export const experiencesTitle = "Experience";
 
 export const experiences = [
   {
