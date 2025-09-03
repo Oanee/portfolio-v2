@@ -1,7 +1,8 @@
 export const navigationWords = [
   { name: "Home", link: "#" },
   { name: "About", link: "#about" },
-  { name: "Work", link: "#work" },
+  { name: "Projects", link: "#projects" },
+  { name: "Experiences", link: "#experiences" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -104,6 +105,7 @@ export const projects = [
       "Designed a modern, responsive interface with Tailwind CSS, ensuring seamless user experience across devices.",
     ],
     href: "https://ai-saas-chat-app.vercel.app/",
+    code: "https://github.com/Oanee/ai-saas-chat-app",
     image: "/assets/projects/converso.webp",
     tags: [
       { id: 1, name: "Next.js", path: "/assets/logos/nextjs.svg" },
@@ -129,6 +131,7 @@ export const projects = [
       "Enabled file sharing via link and integrated global instant search for efficient file retrieval.",
     ],
     href: "https://storage-app-nine.vercel.app/",
+    code: "https://github.com/Oanee/storage-app",
     image: "/assets/projects/storeit.webp",
     tags: [
       { id: 1, name: "Next.js", path: "/assets/logos/nextjs.svg" },
@@ -151,6 +154,7 @@ export const projects = [
       "Designed a responsive, interactive UI to enhance user experience across devices.",
     ],
     href: "https://movie-app-omega-ten-10.vercel.app/",
+    code: "https://github.com/Oanee/movie-app",
     image: "/assets/projects/tvtime.webp",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
@@ -171,6 +175,7 @@ export const projects = [
       "Practiced responsive design principles for optimal viewing across devices.",
     ],
     href: "https://oancea-alin.netlify.app/",
+    code: "https://github.com/Oanee/my-portofolio",
     image: "/assets/projects/portfolio-old.webp",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
@@ -188,6 +193,7 @@ export const projects = [
       "Applied fundamental UI/UX design principles for a clean and user-friendly interface.",
     ],
     href: "https://relaxed-pixie-565e99.netlify.app/",
+    code: "https://github.com/Oanee/monochrome",
     image: "/assets/projects/monochrome.webp",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
@@ -205,6 +211,7 @@ export const projects = [
       "Practiced layout, styling, and basic interactivity.",
     ],
     href: "https://eloquent-scone-6c5bb4.netlify.app/",
+    code: "https://github.com/Oanee/ta-boston",
     image: "/assets/projects/thread-affair.webp",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
@@ -222,6 +229,7 @@ export const projects = [
       "Added personalized messages displaying player’s name and current score.",
     ],
     href: "https://elegant-twilight-cb4e55.netlify.app/",
+    code: "https://github.com/Oanee/rock-paper-scissors",
     image: "/assets/projects/rock-paper-scissors.webp",
     tags: [
       { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
@@ -239,6 +247,7 @@ export const projects = [
       "Created an interactive and responsive UI for user engagement.",
     ],
     href: "https://frolicking-souffle-e33725.netlify.app/",
+    code: "https://github.com/Oanee/tic-tac-toe",
     image: "/assets/projects/tic-tac-toe.webp",
     tags: [
       { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
@@ -256,6 +265,7 @@ export const projects = [
       "Provided real-time feedback for guesses and tracked player progress with level and attempts.",
     ],
     href: "https://dazzling-sprinkles-efd334.netlify.app/",
+    code: "https://github.com/Oanee/number-guessing",
     image: "/assets/projects/number-guessing.webp",
     tags: [
       { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
@@ -273,6 +283,7 @@ export const projects = [
       "Practiced real-time UI updates and responsive design.",
     ],
     href: "https://startling-rugelach-b2ddf9.netlify.app/",
+    code: "https://github.com/Oanee/clock",
     image: "/assets/projects/clock.webp",
     tags: [
       { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
@@ -281,6 +292,8 @@ export const projects = [
     ],
   },
 ];
+
+export const experiencesTitle = "Experiences";
 
 export const experiences = [
   {

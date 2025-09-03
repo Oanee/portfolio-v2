@@ -11,6 +11,7 @@ const Project = ({
   href,
   image,
   tags,
+  code,
   setPreview,
 }) => {
   const [isHidden, setIsHidden] = useState(false);
@@ -18,13 +19,13 @@ const Project = ({
   return (
     <>
       <div
-        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
+        className="flex flex-col flex-wrap items-start justify-between p-6 gap-5 rounded-2xl bg-gradient-to-r bg-indigo to-storm hover:bg-royal hover-animation"
         onMouseEnter={() => setPreview(image)}
         onMouseLeave={() => setPreview(null)}
       >
         <div>
-          <p className="text-2xl">{title}</p>
-          <div className="flex flex-wrap gap-5 mt-2 text-sand">
+          <h2 className="text-xl">{title}</h2>
+          <div className="flex flex-wrap gap-3 mt-2 text-sand">
             {tags.map(({ id, name }) => (
               <span key={id}>{name}</span>
             ))}
@@ -42,7 +43,6 @@ const Project = ({
           />
         </button>
       </div>
-      <SeparatorLine />
       {isHidden && (
         <ProjectDetails
           title={title}
@@ -51,6 +51,7 @@ const Project = ({
           href={href}
           image={image}
           tags={tags}
+          code={code}
           closeModal={() => setIsHidden(false)}
         />
       )}

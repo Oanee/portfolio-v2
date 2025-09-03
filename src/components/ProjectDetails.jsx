@@ -7,6 +7,7 @@ const ProjectDetails = ({
   image,
   tags,
   closeModal,
+  code,
 }) => {
   return (
     <div
@@ -21,30 +22,42 @@ const ProjectDetails = ({
       >
         <button
           onClick={closeModal}
-          className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
+          className="absolute p-2 rounded-3xl top-5 right-5 bg-midnight hover:bg-gray-500"
         >
           <img src="/assets/close.svg" alt="close" className="w-6 h-6" />
         </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
-        <div className="p-5">
-          <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
-          <p className="mb-3 font-normal text-neutral-400">{description}</p>
+        <div className="p-6 flex flex-col gap-5">
+          <h5 className="text-2xl font-bold text-white">{title}</h5>
+          <p className="font-normal text-neutral-400">{description}</p>
           {subDescription.map((subDesc, index) => (
             <p className="mb-3 font-normal text-neutral-400" key={index}>
               {subDesc}
             </p>
           ))}
-          <div className="flex items-center justify-between mt-4">
-            <div className="flex gap-3">
-              {tags.map(({ id, path, name }) => (
-                <img
-                  key={id}
-                  src={path}
-                  alt={name}
-                  className="rounded-lg size-10 hover-animation"
-                />
-              ))}
-            </div>
+          <div className="flex flex-wrap gap-3">
+            {tags.map(({ id, path, name }) => (
+              <img
+                key={id}
+                src={path}
+                alt={name}
+                className="size-7 md:size-10 hover-animation"
+              />
+            ))}
+          </div>
+          <div className="flex gap-3 justify-between">
+            <a
+              href={code}
+              target="_blank"
+              className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer"
+            >
+              View Code{" "}
+              <img
+                src="/assets/arrow-up.svg"
+                alt="Arrow Up"
+                className="size-4"
+              />
+            </a>
             <a
               href={href}
               target="_blank"

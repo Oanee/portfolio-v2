@@ -19,13 +19,12 @@ const Projects = () => {
 
   return (
     <section
-      id="work"
+      id="projects"
       onMouseMove={handleMouseMove}
       className="relative c-space section-spacing"
     >
-      <h2 className="text-heading">{projectsTitle}</h2>
-      <div className="mt-12 w-full">
-        <SeparatorLine />
+      <h2 className="text-heading mb-5 md:mb-15">{projectsTitle}</h2>
+      <div className="w-full flex flex-col gap-5">
         {projects.map((project) => (
           <Project key={project.id} {...project} setPreview={setPreview} />
         ))}
