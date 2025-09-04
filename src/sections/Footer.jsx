@@ -3,7 +3,7 @@ import { footerRights, footerTerms, socials } from "../constants/index.js";
 
 const Footer = () => {
   return (
-    <section className="flex flex-wrap items-center justify-between gap-5 pb-3 text-sm text-neutral-400 c-space">
+    <section className="flex flex-wrap items-center justify-between gap-5 pb-5 text-sm text-neutral-400 c-space">
       <SeparatorLine />
       <p className="flex gap-2">{footerTerms}</p>
       <div className="flex gap-3">

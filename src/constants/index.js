@@ -60,7 +60,7 @@ export const techPrinciplesCards = [
 
 export const locationTitle = "Time zone";
 export const locationDescription =
-  "I'm based in Romania/Sibiu, and open to remote work worldwide or relocate!";
+  "I'm based in Romania/Sibiu (UTC +3), and open to remote work worldwide.";
 
 export const collaborationTitle = "Do you want to start a project together ?";
 export const personalEmail = "oanceaalin9595@gmail.com";

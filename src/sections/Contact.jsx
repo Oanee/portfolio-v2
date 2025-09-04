@@ -45,7 +45,7 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_TEMPLATE,
         {
           from_name: formData.name,
-          to_name: "Oancea Alin",
+          to_name: "Alin Oancea",
           from_email: formData.email,
           to_email: personalEmail,
           message: formData.message,
@@ -77,7 +77,9 @@ const Contact = () => {
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">{contactTitle}</h2>
-          <p className="font-normal text-neutral-400">{contactDescription}</p>
+          <p className="font-normal text-neutral-400 text-base">
+            {contactDescription}
+          </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">

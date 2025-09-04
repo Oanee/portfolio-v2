@@ -29,12 +29,12 @@ const ProjectDetails = ({
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-6 flex flex-col gap-4">
           <h5 className="text-2xl font-bold text-white">{title}</h5>
-          <p className="font-normal text-neutral-400">{description}</p>
-          <div className="flex flex-col gap-2">
+          <p className="font-normal text-neutral-400 text-base">
+            {description}
+          </p>
+          <div className="flex flex-col gap-2 text-sm font-normal text-neutral-400">
             {subDescription.map((subDesc, index) => (
-              <p className="text-sm font-normal text-neutral-400" key={index}>
-                • {subDesc}
-              </p>
+              <p key={index}>• {subDesc}</p>
             ))}
           </div>
           <div className="flex flex-wrap gap-3">

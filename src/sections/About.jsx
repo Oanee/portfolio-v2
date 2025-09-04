@@ -1,3 +1,5 @@
+"use client";
+
 import {
   aboutMeDescription,
   aboutMeTitle,
@@ -40,7 +42,7 @@ const About = () => {
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-500">
+            <p className="flex justify-center items-center text-3xl text-gray-500">
               {techPrinciplesTitle}
             </p>
             {techPrinciplesCards.map(({ style, text, image }, index) => (
