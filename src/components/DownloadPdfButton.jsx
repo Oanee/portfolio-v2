@@ -6,8 +6,8 @@ const DownloadCVButton = () => {
 
   const downloadPDF = () => {
     const link = document.createElement("a");
-    link.href = "/assets/cv/Oancea Ioan - Alin.pdf";
-    link.download = "Oancea Ioan - Alin.pdf";
+    link.href = "/cv/Alin_Oancea_Software_Developer.pdf";
+    link.download = "Alin_Oancea_Software_Developer.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

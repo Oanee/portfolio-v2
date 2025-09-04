@@ -27,14 +27,16 @@ const ProjectDetails = ({
           <img src="/assets/close.svg" alt="close" className="w-6 h-6" />
         </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
-        <div className="p-6 flex flex-col gap-5">
+        <div className="p-6 flex flex-col gap-4">
           <h5 className="text-2xl font-bold text-white">{title}</h5>
           <p className="font-normal text-neutral-400">{description}</p>
-          {subDescription.map((subDesc, index) => (
-            <p className="mb-3 font-normal text-neutral-400" key={index}>
-              {subDesc}
-            </p>
-          ))}
+          <div className="flex flex-col gap-2">
+            {subDescription.map((subDesc, index) => (
+              <p className="text-sm font-normal text-neutral-400" key={index}>
+                • {subDesc}
+              </p>
+            ))}
+          </div>
           <div className="flex flex-wrap gap-3">
             {tags.map(({ id, path, name }) => (
               <img
