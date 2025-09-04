@@ -1,6 +1,5 @@
 "use client";
 
-import SeparatorLine from "./SeparatorLine.jsx";
 import ProjectDetails from "./ProjectDetails.jsx";
 import { useState } from "react";
 

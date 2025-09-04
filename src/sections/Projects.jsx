@@ -2,7 +2,6 @@
 
 import { projects, projectsTitle } from "../constants/index.js";
 import Project from "../components/Project.jsx";
-import SeparatorLine from "../components/SeparatorLine.jsx";
 import { motion, useMotionValue, useSpring } from "motion/react";
 import { useState } from "react";
 
