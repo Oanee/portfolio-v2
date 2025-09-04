@@ -48,7 +48,7 @@ const About = () => {
             {techPrinciplesCards.map(({ style, text, image }, index) => (
               <Card
                 key={index}
-                classes={style}
+                style={style}
                 text={text}
                 image={image}
                 containerRef={grid2Container}
