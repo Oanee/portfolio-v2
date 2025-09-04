@@ -23,28 +23,37 @@ export const aboutMeDescription =
 
 export const techPrinciplesTitle = "CODE IS CRAFT";
 export const techPrinciplesCards = [
-  { classes: "top-[30%] left-[20%] rotate-[75deg]", text: "MVC" },
-  { classes: "top-[60%] left-[45%] rotate-[-30deg]", text: "Coding Workflow" },
+  { style: { rotate: "75deg", top: "30%", left: "20%" }, text: "MVC" },
   {
-    classes: "bottom-[30%] left-[70%] rotate-[90deg]",
+    style: { rotate: "-30deg", top: "60%", left: "45%" },
+    text: "Coding Workflow",
+  },
+  {
+    style: { rotate: "90deg", bottom: "30%", left: "70%" },
     text: "Design Patterns",
   },
-  { classes: "top-[55%] left-[0%] rotate-[-45deg]", text: "Design Principles" },
-  { classes: "top-[10%] left-[38%] rotate-[20deg]", text: "Responsive Design" },
   {
-    classes: "top-[70%] left-[70%] rotate-[30deg]",
+    style: { rotate: "-45deg", top: "55%", left: "0%" },
+    text: "Design Principles",
+  },
+  {
+    style: { rotate: "20deg", top: "10%", left: "38%" },
+    text: "Responsive Design",
+  },
+  {
+    style: { rotate: "30deg", top: "70%", left: "70%" },
     image: "assets/logos/npm.svg",
   },
   {
-    classes: "top-[70%] left-[25%] rotate-[-20deg]",
+    style: { rotate: "-20deg", top: "70%", left: "25%" },
     image: "assets/logos/git.svg",
   },
   {
-    classes: "top-[5%] left-[10%] rotate-[-45deg]",
+    style: { rotate: "-45deg", top: "5%", left: "10%" },
     image: "assets/logos/visualstudiocode.svg",
   },
   {
-    classes: "top-[5%] left-[70%] rotate-[25deg]",
+    style: { rotate: "25deg", top: "5%", left: "70%" },
     image: "assets/logos/jetbrains.svg",
   },
 ];

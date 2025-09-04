@@ -1,11 +1,12 @@
 import { motion } from "motion/react";
 
-const Card = ({ classes, text, image, containerRef }) => {
+const Card = ({ style, text, image, containerRef }) => {
   return image && !text ? (
     <motion.img
       src={image}
       alt="card"
-      className={`absolute w-12 cursor-grab md:scale-125 will-change-transform ${classes}`}
+      className="absolute w-12 cursor-grab md:scale-125"
+      style={style}
       whileHover={{ scale: 1.1 }}
       drag
       dragConstraints={containerRef}
@@ -13,7 +14,8 @@ const Card = ({ classes, text, image, containerRef }) => {
     />
   ) : (
     <motion.p
-      className={`absolute px-1 py-3 text-sm md:text-lg text-center rounded-full ring ring-gray-700 font-extralight bg-storm w-[12rem] cursor-grab will-change-transform ${classes} `}
+      className="absolute px-1 py-4 text-sm md:text-lg text-center rounded-full ring ring-gray-700 font-extralight bg-storm w-[12rem] cursor-grab"
+      style={style}
       whileHover={{ scale: 1.1 }}
       drag
       dragConstraints={containerRef}
