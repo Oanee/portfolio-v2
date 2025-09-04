@@ -50,13 +50,13 @@
 
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
 	background: #030412;
 	font-family: "Funnel Display", sans-serif;
 	color: white;
-	overflow-x: hidden;
 }
 
 .c-space {

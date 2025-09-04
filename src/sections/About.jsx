@@ -45,10 +45,10 @@ const About = () => {
             <p className="flex justify-center items-center text-3xl text-gray-500">
               {techPrinciplesTitle}
             </p>
-            {techPrinciplesCards.map(({ style, text, image }, index) => (
+            {techPrinciplesCards.map(({ classes, text, image }, index) => (
               <Card
                 key={index}
-                style={style}
+                classes={classes}
                 text={text}
                 image={image}
                 containerRef={grid2Container}

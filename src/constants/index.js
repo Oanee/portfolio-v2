@@ -23,85 +23,28 @@ export const aboutMeDescription =
 
 export const techPrinciplesTitle = "CODE IS CRAFT";
 export const techPrinciplesCards = [
+  { classes: "top-[30%] left-[20%] rotate-[75deg]", text: "MVC" },
+  { classes: "top-[60%] left-[45%] rotate-[-30deg]", text: "Coding Workflow" },
   {
-    style: {
-      transform: "rotate(75deg)",
-      rotate: "75deg",
-      top: "30%",
-      left: "20%",
-    },
-    text: "MVC",
-  },
-  {
-    style: {
-      transform: "rotate(-30deg)",
-      rotate: "-30deg",
-      top: "60%",
-      left: "45%",
-    },
-    text: "Coding Workflow",
-  },
-  {
-    style: {
-      transform: "rotate(90deg)",
-      rotate: "90deg",
-      bottom: "30%",
-      left: "70%",
-    },
+    classes: "bottom-[30%] left-[70%] rotate-[90deg]",
     text: "Design Patterns",
   },
+  { classes: "top-[55%] left-[0%] rotate-[-45deg]", text: "Design Principles" },
+  { classes: "top-[10%] left-[38%] rotate-[20deg]", text: "Responsive Design" },
   {
-    style: {
-      transform: "rotate(-45deg)",
-      rotate: "-45deg",
-      top: "55%",
-      left: "0%",
-    },
-    text: "Design Principles",
-  },
-  {
-    style: {
-      transform: "rotate(20deg)",
-      rotate: "20deg",
-      top: "10%",
-      left: "38%",
-    },
-    text: "Responsive Design",
-  },
-  {
-    style: {
-      transform: "rotate(30deg)",
-      rotate: "30deg",
-      top: "70%",
-      left: "70%",
-    },
+    classes: "top-[70%] left-[70%] rotate-[30deg]",
     image: "assets/logos/npm.svg",
   },
   {
-    style: {
-      transform: "rotate(-20deg)",
-      rotate: "-20deg",
-      top: "70%",
-      left: "25%",
-    },
+    classes: "top-[70%] left-[25%] rotate-[-20deg]",
     image: "assets/logos/git.svg",
   },
   {
-    style: {
-      transform: "rotate(-45deg)",
-      rotate: "-45deg",
-      top: "5%",
-      left: "10%",
-    },
+    classes: "top-[5%] left-[10%] rotate-[-45deg]",
     image: "assets/logos/visualstudiocode.svg",
   },
   {
-    style: {
-      transform: "rotate(25deg)",
-      rotate: "25deg",
-      top: "5%",
-      left: "70%",
-    },
+    classes: "top-[5%] left-[70%] rotate-[25deg]",
     image: "assets/logos/jetbrains.svg",
   },
 ];
