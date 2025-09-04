@@ -10,7 +10,7 @@ import { motion } from "motion/react";
 
 const HeroText = () => {
   return (
-    <div className="z-10 mt-20 md:mt-40 text-center md:text-left flex flex-col">
+    <div className="z-10 mt-20 md:mt-40 text-center md:text-left flex flex-col text-shadow-indigo text-shadow-md">
       <motion.h1
         className="text-4xl font-medium"
         {...heroTextMotionVariants(1)}

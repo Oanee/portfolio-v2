@@ -13,8 +13,8 @@ const Card = ({ style, text, image, containerRef }) => {
       dragElastic={1}
     />
   ) : (
-    <motion.div
-      className="absolute px-1 py-4 text-sm md:text-lg text-center rounded-full ring ring-gray-700 font-extralight bg-storm w-[12rem] cursor-grab"
+    <motion.p
+      className="absolute px-1 py-3 text-sm md:text-lg text-center rounded-full ring ring-gray-700 font-extralight bg-storm w-[12rem] cursor-grab"
       style={style}
       whileHover={{ scale: 1.1 }}
       drag
@@ -22,7 +22,7 @@ const Card = ({ style, text, image, containerRef }) => {
       dragElastic={1}
     >
       {text}
-    </motion.div>
+    </motion.p>
   );
 };
 export default Card;
