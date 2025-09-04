@@ -6,26 +6,24 @@ const Card = ({ style, text, image, containerRef }) => {
       src={image}
       alt="card"
       className="absolute w-12 cursor-grab md:scale-125"
-      style={style}
+      style={{ top: style.top, left: style.left }}
+      initial={{ rotate: parseFloat(style.rotate) }}
+      animate={{ rotate: parseFloat(style.rotate) }}
       whileHover={{ scale: 1.1 }}
       drag
       dragConstraints={containerRef}
       dragElastic={1}
-      initial={{ opacity: 0, y: -10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.1, ease: "easeInOut" }}
     />
   ) : (
     <motion.p
       className="absolute px-1 py-4 text-sm md:text-lg text-center rounded-full ring ring-gray-700 font-extralight bg-storm w-[12rem] cursor-grab"
-      style={style}
+      style={{ top: style.top, left: style.left }}
+      initial={{ rotate: parseFloat(style.rotate) }}
+      animate={{ rotate: parseFloat(style.rotate) }}
       whileHover={{ scale: 1.1 }}
       drag
       dragConstraints={containerRef}
       dragElastic={1}
-      initial={{ opacity: 0, y: -10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.1, ease: "easeInOut" }}
     >
       {text}
     </motion.p>
