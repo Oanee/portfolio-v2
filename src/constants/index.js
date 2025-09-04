@@ -23,37 +23,37 @@ export const aboutMeDescription =
 
 export const techPrinciplesTitle = "CODE IS CRAFT";
 export const techPrinciplesCards = [
-  { style: { rotate: "75deg", top: "30%", left: "20%" }, text: "MVC" },
+  { style: { top: "40%", left: "15%" }, text: "MVC" },
   {
-    style: { rotate: "-30deg", top: "60%", left: "45%" },
+    style: { top: "60%", left: "50%" },
     text: "Coding Workflow",
   },
   {
-    style: { rotate: "90deg", bottom: "30%", left: "70%" },
+    style: { top: "20%", left: "50%" },
     text: "Design Patterns",
   },
   {
-    style: { rotate: "-45deg", top: "55%", left: "0%" },
+    style: { top: "70%", left: "10%" },
     text: "Design Principles",
   },
   {
-    style: { rotate: "20deg", top: "10%", left: "38%" },
+    style: { top: "10%", left: "10%" },
     text: "Responsive Design",
   },
   {
-    style: { rotate: "30deg", top: "70%", left: "70%" },
+    style: { top: "80%", left: "70%" },
     image: "assets/logos/npm.svg",
   },
   {
-    style: { rotate: "-20deg", top: "70%", left: "25%" },
+    style: { top: "50%", left: "25%" },
     image: "assets/logos/git.svg",
   },
   {
-    style: { rotate: "-45deg", top: "5%", left: "10%" },
+    style: { top: "30%", left: "10%" },
     image: "assets/logos/visualstudiocode.svg",
   },
   {
-    style: { rotate: "25deg", top: "5%", left: "70%" },
+    style: { top: "5%", left: "70%" },
     image: "assets/logos/jetbrains.svg",
   },
 ];
