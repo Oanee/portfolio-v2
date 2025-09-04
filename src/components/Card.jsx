@@ -4,7 +4,6 @@ import { useState } from "react";
 const Card = ({ style, text, image, containerRef }) => {
   const [isPressed, setIsPressed] = useState(false);
   const rotate = `rotate-${style.rotate}`;
-  console.log(containerRef);
 
   return image && !text ? (
     <motion.img
